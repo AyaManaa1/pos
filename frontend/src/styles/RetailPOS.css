@@ -1,0 +1,163 @@
+.RetailPOS {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  padding-bottom: 40px;
+  padding-top: 70px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.retail-pos-image {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ff8c00;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin: 20px 0 10px;
+  color: #333;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: normal;
+  margin: 15px 0;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.6;
+  margin: 10px 0 20px;
+  color: #555;
+}
+
+.features-section {
+  margin: 40px 0;
+}
+
+.features-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.feature-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card:hover {
+  background-color: #eaeaea;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.details-section {
+  margin: 20px 0;
+}
+
+.cta-section {
+  text-align: center;
+  margin: 40px 0;
+  background-color: #fffbf0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.request-demo-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #ff8c00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.request-demo-button:hover {
+  background-color: #e07b00;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .content {
+      padding: 15px;
+  }
+
+  h1 {
+      font-size: 2em;
+  }
+
+  h2 {
+      font-size: 1.5em;
+  }
+
+  h3 {
+      font-size: 1.3em;
+  }
+
+  .request-demo-button {
+      width: 100%;
+      padding: 12px;
+      font-size: 18px;
+  }
+
+  .features-list {
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+
+  .feature-card {
+      padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+      font-size: 1.8em;
+  }
+
+  h2 {
+      font-size: 1.4em;
+  }
+
+  h3 {
+      font-size: 1.2em;
+  }
+
+  .request-demo-button {
+      padding: 10px;
+      font-size: 16px;
+  }
+
+  .details-section {
+      padding: 15px;
+  }
+}
